@@ -39,13 +39,3 @@ A beginner-friendly Hack The Box walkthrough documenting my process of identifyi
 
 The goal of this machine was to identify the FTP service running on the target, analyze the service configuration, gain access through anonymous FTP authentication, and retrieve the flag file.
 
----
-
-# 🔍 Enumeration
-
-## Network Scanning
-
-I started by scanning the target machine using Nmap to identify open ports and running services.
-
-```bash
-nmap -sV <TARGET_IP>
